@@ -247,8 +247,9 @@ import os
 import requests
 import time
 
+time.sleep(3)
 os.system("clear") 
-time.sleep("2")    
+time.sleep(2)    
 print("         Z3Z G30         ")
 print("                          ")
 print("░░░░░░███████ ]▄▄▄▄▄▄▄▄")
@@ -256,7 +257,7 @@ print("▂▄▅█████████▅▄▃▂")
 print("I███████████████████]")
 print("◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤...")
 print("                          ")    
-time.sleep("6")
+time.sleep(6)
 def get_ip_details(ip):
     url = f"http://ip-api.com/json/{ip}"
     response = requests.get(url)
