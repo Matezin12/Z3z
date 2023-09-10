@@ -247,7 +247,6 @@ import os
 import requests
 import time
 
-time.sleep("3")
 os.system("clear") 
 time.sleep("2")    
 print("         Z3Z G30         ")
