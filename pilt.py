@@ -6,7 +6,7 @@ os.system("clear")
 def identificar_padroes_linguisticos(palavra):
     padrao_sul = re.compile(r'.*(tchê|Alçar a perna|Cacetinho|Embretar-se|Guri|Lindeiro|Solito|bah|uai|cuia|mate|porongo|tu).*', re.IGNORECASE)
     padrao_sudeste = re.compile(r'.*(uai|Bolado|Da hora|É fria|Larica|Quebrado|muié|).*', re.IGNORECASE)
-    padrao_nordeste = re.compile(r'.*(oxente|meu rei|meu bem|jumento|sertanejo|menininho|mulherona|arretado|arrumação|tô falando|bicho|mano|muié).*', re.IGNORECASE)
+    padrao_nordeste = re.compile(r'.*(oxente|meu rei|meu bem|jumento|sertanejo|menininho|mulherona|arretado|arrumação|tô|bicho|mano|muié).*', re.IGNORECASE)
     padrao_norte = re.compile(r'.*(Moleque doido|Moscô|Égua|Borogodó|carimbó|igarapé|curro|ta ligado|bicudo|meno|parada).*', re.IGNORECASE)
     padrao_centro_oeste = re.compile(r'.*(Arruinou|Carreta|Empatar|peão|roça|boiadeiro|jacaré|capivara|piranha|buriti|pequi|jatobá|mermão|nois|muié|tô fazendo).*', re.IGNORECASE)
     
