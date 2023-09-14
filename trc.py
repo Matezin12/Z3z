@@ -1,4 +1,4 @@
-#código não disponível para ver
+ #código não disponível para ver
 
 
 
@@ -865,9 +865,9 @@ import time
 time.sleep(2)
 os.system("clear") 
 time.sleep(1)    
-print(" ░█▀▀█ █▀▀█ █▀▀█ ░█─── █▀▀█ ░█▀▀█ ")
-print(" ░█─▄▄ ──▀▄ █▄▀█ ░█─── █▄▀█ ░█─── ")
-print(" ░█▄▄█ █▄▄█ █▄▄█ ░█▄▄█ █▄▄█ ░█▄▄█ ")
+print("░█▀▀█ █▀▀█ █▀▀█ ░█─── █▀▀█ ░█▀▀█")
+print("░█─▄▄ ──▀▄ █▄▀█ ░█─── █▄▀█ ░█───")
+print("░█▄▄█ █▄▄█ █▄▄█ ░█▄▄█ █▄▄█ ░█▄▄█")
 time.sleep(2)　    
 def get_ip_details(ip):
     url = f"http://ip-api.com/json/{ip}"
