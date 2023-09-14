@@ -1,8 +1,13 @@
 import os
 import re
+import time
 
 os.system("clear")
-
+time.sleep(3)
+print(" ░█▀▀█ ─█▀█─ ░█▀▀▄ ░█▀▀█ ░█─░█ ▄█─") 　 
+print(" ░█▄▄█ █▄▄█▄ ░█─░█ ░█─▄▄ ░█─░█ ─█─ ")　 
+print(" ░█─── ───█─ ░█▄▄▀ ░█▄▄█ ─▀▄▄▀ ▄█▄ 　" 
+print("                           ")
 def identificar_padroes_linguisticos(palavra):
     padrao_sul = re.compile(r'.*(tchê|Alçar a perna|Cacetinho|Embretar-se|Guri|Lindeiro|Solito|bah|uai|cuia|mate|porongo|tu).*', re.IGNORECASE)
     padrao_sudeste = re.compile(r'.*(uai|Bolado|Da hora|É fria|Larica|Quebrado|muié|).*', re.IGNORECASE)
@@ -44,6 +49,6 @@ palavra = input(" \033[036m Digite uma palavra a ser identificada: \033[036m ")
 resultado = identificar_padroes_linguisticos(palavra)
 
 # Imprime o resultado
-print(" \033[36m ================================================= \033[36m ")
+print(" \033[36m ================================= \033[36m ")
 print(resultado)
-print(" \033[36m ================================================= \033[36m ")
+print(" \033[36m ================================= \033[36m ")
