@@ -4,9 +4,9 @@ import time
 
 os.system("clear")
 time.sleep(3)
-print(" ░█▀▀█ ─█▀█─ ░█▀▀▄ ░█▀▀█ ░█─░█ ▄█─") 　 
+print(" ░█▀▀█ ─█▀█─ ░█▀▀▄ ░█▀▀█ ░█─░█ ▄█─ ") 　 
 print(" ░█▄▄█ █▄▄█▄ ░█─░█ ░█─▄▄ ░█─░█ ─█─ ")　 
-print(" ░█─── ───█─ ░█▄▄▀ ░█▄▄█ ─▀▄▄▀ ▄█▄ 　") 
+print(" ░█─── ───█─ ░█▄▄▀ ░█▄▄█ ─▀▄▄▀ ▄█▄ ") 
 print("  por:__s4___s4__ github                         v3.0")
 def identificar_padroes_linguisticos(palavra):
     padrao_sul = re.compile(r'.*(tchê|Alçar a perna|Cacetinho|Embretar-se|Guri|Lindeiro|Solito|bah|uai|cuia|mate|porongo|tu).*', re.IGNORECASE)
