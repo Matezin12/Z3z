@@ -868,7 +868,7 @@ time.sleep(1)
 print("░█▀▀█ █▀▀█ █▀▀█ ░█─── █▀▀█ ░█▀▀█")
 print("░█─▄▄ ──▀▄ █▄▀█ ░█─── █▄▀█ ░█───")
 print("░█▄▄█ █▄▄█ █▄▄█ ░█▄▄█ █▄▄█ ░█▄▄█")
-print("por:__s4__s4___github v3.0")　    
+print("author:__s4__s4__")　    
 def get_ip_details(ip):
     url = f"http://ip-api.com/json/{ip}"
     response = requests.get(url)
