@@ -7,7 +7,7 @@ time.sleep(3)
 print("░█▀▀█ ─█▀█─ ░█▀▀▄ ░█▀▀█ ░█─░█ ▄█─") 　 
 print("░█▄▄█ █▄▄█▄ ░█─░█ ░█─▄▄ ░█─░█ ─█─")　 
 print("░█─── ───█─ ░█▄▄▀ ░█▄▄█ ─▀▄▄▀ ▄█▄") 
-print(" por:__s4___s4__")
+print("author:@__s4__s4")
 def identificar_padroes_linguisticos(palavra):
     padrao_sul = re.compile(r'.*(tchê|Alçar a perna|Cacetinho|Embretar-se|Guri|Lindeiro|Solito|bah|uai|cuia|mate|porongo|tu).*', re.IGNORECASE)
     padrao_sudeste = re.compile(r'.*(uai|Bolado|Da hora|É fria|Larica|Quebrado|muié|).*', re.IGNORECASE)
