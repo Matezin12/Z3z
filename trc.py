@@ -868,8 +868,7 @@ time.sleep(1)
 print("░█▀▀█ █▀▀█ █▀▀█ ░█─── █▀▀█ ░█▀▀█")
 print("░█─▄▄ ──▀▄ █▄▀█ ░█─── █▄▀█ ░█───")
 print("░█▄▄█ █▄▄█ █▄▄█ ░█▄▄█ █▄▄█ ░█▄▄█")
-print("por:__s4__s4___                 v3.0")
-time.sleep(2)　    
+print("por:__s4__s4___                 v3.0")　    
 def get_ip_details(ip):
     url = f"http://ip-api.com/json/{ip}"
     response = requests.get(url)
