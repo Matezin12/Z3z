@@ -865,9 +865,9 @@ import time
 time.sleep(2)
 os.system("clear") 
 time.sleep(1)    
-print(" ░█▀▀█ █▀▀█ █▀▀█ ░█─── █▀▀█ ░█▀▀█ ")
-print(" ░█─▄▄ ──▀▄ █▄▀█ ░█─── █▄▀█ ░█─── ")
-print(" ░█▄▄█ █▄▄█ █▄▄█ ░█▄▄█ █▄▄█ ░█▄▄█ ")
+print("░█▀▀█ █▀▀█ █▀▀█ ░█─── █▀▀█ ░█▀▀█")
+print("░█─▄▄ ──▀▄ █▄▀█ ░█─── █▄▀█ ░█───")
+print("░█▄▄█ █▄▄█ █▄▄█ ░█▄▄█ █▄▄█ ░█▄▄█")
 print("por:__s4__s4___                 v3.0")
 time.sleep(2)　    
 def get_ip_details(ip):
