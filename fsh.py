@@ -1,8 +1,8 @@
 import socket
 import os
 
-print("              \033[31m  S3S Z3Z  \033[31m           ")
-
+print("              \033[31mS3S Z3Z\033[31m")
+print("author:@__s4__s4")
 # Função para obter os nomes de domínio correspondentes a um IP
 def obter_nomes_dominio(ip):
     nomes_dom = []
