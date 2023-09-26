@@ -865,9 +865,9 @@ import time
 time.sleep(2)
 os.system("clear") 
 time.sleep(1)    
-print("░█▀▀█ █▀▀█ █▀▀█ ░█─── █▀▀█ ░█▀▀█")
-print("░█─▄▄ ──▀▄ █▄▀█ ░█─── █▄▀█ ░█───")
-print("░█▄▄█ █▄▄█ █▄▄█ ░█▄▄█ █▄▄█ ░█▄▄█")
+print("#█▀▀█ █▀▀█ █▀▀█ #█─── █▀▀█ #█▀▀█")
+print("#█─▄▄ ──▀▄ █▄▀█ #█─── █▄▀█ #█───")
+print("#█▄▄█ █▄▄█ █▄▄█ #█▄▄█ █▄▄█ #█▄▄█")
 print("author:@__s4__s4")
 def get_ip_details(ip):
     url = f"http://ip-api.com/json/{ip}"
