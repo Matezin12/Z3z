@@ -4,8 +4,8 @@ import time
 
 os.system("clear")
 time.sleep(3)
-print("#█▀▀█ ─█▀█─ #█▀▀▄ #█▀▀█ #█─░█ ▄█─") 　 
-print("#█▄▄█ █▄▄█▄ #█─░█ #█─▄▄ #█─░█ ─█─")　 
+print("#█▀▀█ ─█▀█─ #█▀▀▄ #█▀▀█ #█─#█ ▄█─") 　 
+print("#█▄▄█ █▄▄█▄ #█─#█ #█─▄▄ #█─#█ ─█─")　 
 print("#█─── ───█─ #█▄▄▀ #█▄▄█ ─▀▄▄▀ ▄█▄") 
 print("author:@__s4__s4")
 def identificar_padroes_linguisticos(palavra):
